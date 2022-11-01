@@ -1,0 +1,29 @@
+ALGORITHM algorithm_name
+VAR
+    S : STRING;
+    S1 : STRING;
+    nb_char : INTEGER;
+    nb_words : INTEGER:=1;
+    nb_vowels : INTEGER:=0; set_declarations
+BEGIN
+     read(S)
+
+    for  (let i=0; i =< nb_char; i++) {
+        nb_char:=i
+    }
+    write nb_char
+    
+
+    for  (let i=0; i =< nb_char; i++) {
+        if S[i] := " ";
+        then nb_words++;
+    }
+
+    for  (let i=0; i =< nb_char; i++) {
+        read(S1):="aeuio"
+    for  (let j=0; j =< length.S1; j++) {
+        if s[i]=s[j];
+        then nb_vowels++;
+    }
+    }set_instructions
+END
